@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "GiaiPTbac1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>GiaiPTB1</h2>
+
+@{
+    ViewBag.Title = "GiaiPTBac1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GiaiPTBac1</h2>
+@using (Html.BeginForm())
+{
+    <input type="text" name="hesoa" />
+    <input type="text" name="hesob" />
+    <input type="submit" value="Giải Phương Trình" />
+}
+
+
+<h2>Nghiem cua phuong trinh X = @ViewBag.NghiemPT</h2>
+
+
+
